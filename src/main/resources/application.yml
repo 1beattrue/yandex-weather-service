@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: yandex-weather-service
+  main:
+    web-application-type: none
+    banner-mode: off
+    log-startup-info: false
+  http:
+    clients:
+      connect-timeout: 10s
+      read-timeout: 15s
+
+yandex:
+  weather:
+    base-url: https://api.weather.yandex.ru
+    api-key: ${YANDEX_WEATHER_KEY:}
+
+weather:
+  query:
+    lat: 55.75
+    lon: 37.62
+    days: 7

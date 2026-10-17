@@ -1,0 +1,33 @@
+{
+  "now": 1760725200,
+  "now_dt": "2026-10-17T18:20:00.000000Z",
+  "info": {
+    "lat": 55.75,
+    "lon": 37.62,
+    "url": "https://yandex.ru/pogoda/?lat=55.75&lon=37.62"
+  },
+  "fact": {
+    "temp": 6,
+    "feels_like": 2,
+    "condition": "cloudy",
+    "wind_speed": 4.1,
+    "pressure_mm": 748,
+    "humidity": 81
+  },
+  "forecasts": [
+    {
+      "date": "2026-10-17",
+      "parts": {
+        "day": { "temp_min": 5, "temp_max": 9, "temp_avg": 7, "condition": "cloudy" },
+        "night": { "temp_min": 2, "temp_max": 4, "temp_avg": 3, "condition": "clear" }
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "parts": {
+        "day": { "temp_min": 4, "temp_max": 8, "temp_avg": 6, "condition": "light-rain" },
+        "night": { "temp_min": 1, "temp_max": 3, "temp_avg": 2, "condition": "cloudy" }
+      }
+    }
+  ]
+}
